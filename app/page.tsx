@@ -420,10 +420,6 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground animate-slide-up" style={{ animationDelay: '400ms' }}>
-              <MapPin className="h-4 w-4" />
-              Calle 25b # 72-8
-            </div>
 
             <div className="mt-8 flex gap-4 animate-slide-up" style={{ animationDelay: '500ms' }}>
               <a
