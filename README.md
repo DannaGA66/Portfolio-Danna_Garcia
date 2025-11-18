@@ -1,30 +1,75 @@
-# Portfolio website design
+# Portfolio - Danna García
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Portfolio web personal desarrollado con las últimas tecnologías de React y Next.js.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/nannas-projects-a6b009bc/v0-portfolio-website-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/sfruigbyTFf)
+## Tecnologías Utilizadas
 
-## Overview
+Este proyecto está construido con las siguientes tecnologías y herramientas:
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+### Framework y Core
+- **Next.js 16.0.3** 
+- **React 19.2.0** 
+- **TypeScript 5** 
 
-## Deployment
+### Estilos y Diseño
+- **Tailwind CSS 4.1.9** 
+- **PostCSS** 
+- **tailwindcss-animate** 
+- **tw-animate-css** 
 
-Your project is live at:
+### Componentes UI
+- **Radix UI**
+- **shadcn/ui** 
+- **lucide-react** 
+- **class-variance-authority**
 
-**[https://vercel.com/nannas-projects-a6b009bc/v0-portfolio-website-design](https://vercel.com/nannas-projects-a6b009bc/v0-portfolio-website-design)**
+### Formularios y Validación
+- **React Hook Form 7.60.0** 
+- **Zod 3.25.76** 
+- **@hookform/resolvers** 
 
-## Build your app
+### Herramientas de Desarrollo
+- **ESLint** 
+- **@vercel/analytics** 
 
-Continue building your app on:
+### Gestor de Paquetes
+- **pnpm** 
 
-**[https://v0.app/chat/sfruigbyTFf](https://v0.app/chat/sfruigbyTFf)**
+## Instalación
 
-## How It Works
+### Requisitos Previos
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Asegúrate de tener instalado:
+- **Node.js** versión 18 o superior (recomendado 20+)
+- **pnpm** - Gestor de paquetes
+
+### Instalar pnpm (si no lo tienes)
+
+```bash
+npm install -g pnpm
+```
+
+### Instalar Dependencias
+
+1. Clona el repositorio:
+```bash
+git clone <url-del-repositorio>
+cd Portfolio-Danna_Garcia
+```
+
+2. Instala las dependencias:
+```bash
+pnpm install
+```
+
+## Despliegue Local:
+
+### Modo Desarrollo
+
+Para ejecutar el proyecto :
+
+```bash
+pnpm dev
+```
+
+El proyecto estará disponible en [http://localhost:3000](http://localhost:3000)

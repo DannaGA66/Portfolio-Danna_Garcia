@@ -449,7 +449,7 @@ export default function Portfolio() {
             <div className="relative h-full w-full max-w-lg">
               <div className="aspect-square w-full overflow-hidden rounded-2xl bg-muted transition-transform duration-500 hover:scale-105">
                 <img
-                  src="/software-engineer-portrait.png"
+                  src="/Cocoa_io.jpg"
                   alt="Danna Garcia Acevedo"
                   className="h-full w-full object-cover"
                 />
